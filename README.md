@@ -18,7 +18,7 @@ pipeline e fica disponível como artefato na aba **Actions** do repositório.
 
 1. Clone o repositório:
    \`\`\`bash
-   git clone https://github.com/SEU-USUARIO/qa-teste-tecnico.git
+   git clone https://github.com/julianagermano/qa-teste-tecnico.git
    cd qa-teste-tecnico
    \`\`\`
 
