@@ -7,6 +7,13 @@ Suíte de testes automatizados cobrindo a API pública reqres.in e o fluxo de ca
 - Python 3.10+
 - Conta gratuita em https://app.reqres.in para gerar uma API key própria
 
+## Relatório de execução
+
+![Relatório de testes](docs/report-screenshot.png)
+
+O relatório completo também é gerado automaticamente a cada execução do
+pipeline e fica disponível como artefato na aba **Actions** do repositório.
+
 ## Como rodar localmente
 
 1. Clone o repositório:
@@ -189,3 +196,6 @@ Mantive os cenários BDD enxutos, com foco em comportamento observável
 
 **Trade-offs conscientes**: não automatizei casos negativos do fluxo Web (login inválido, item indisponível) nesta entrega — ficaram documentados na análise manual (Parte C) por serem, no momento, de menor criticidade frente ao tempo disponível. Também não configurei Allure, optando por pytest-html, por ser suficiente para o escopo desta entrega.
 
+
+
+[def]: docs/report-screenshot.png
